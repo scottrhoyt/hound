@@ -20,7 +20,7 @@ module ConfigurationHelper
   end
 
   def eslint_config_url
-    config_url("thoughtbot/hound-eslint", "config/default.json")
+    config_url("thoughtbot/hound-eslint", "config/.eslintrc")
   end
 
   def scss_config_url
